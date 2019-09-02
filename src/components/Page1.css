@@ -4,29 +4,35 @@
 	font-size: 79px;
 }
 
-.work1 {
+/*.work1 {
 	margin-left: 99px;
 	font-weight: bold;
 	font-size: 19px;
 
-	
+}*/
+
+body
+{
+	background-image: url("../wallpaper.jpg");
+	background-size:     cover;             
+    background-repeat:   no-repeat;
+    background-position: center center; 
+ }
 
 
-}
-
-.work2 {
+/*.work2 {
 	margin-left: 155px;
 	font-weight: bold;
 	font-size: 19px;
 
-}
+}*/
 
 
-.work3 {
+/*.work3 {
 	margin-left: 155px;
 	font-weight: bold;
 	font-size: 19px;
-}
+}*/
 
 h1 {
 	text-align: center;
@@ -45,17 +51,27 @@ h3 {
 }
 
 
-
-
 .button {
-	margin-top: 200px;
+	margin-top: 20px;
 }
 
 .canvas {
-	margin-top: 66px;
+	margin-top: 16px;
+	margin-right: 46px;
 }
 
 .social {
+	text-align: center;
+}
+
+.blog {
+	text-align: center;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 40px;
 	text-align: center;
 }
 

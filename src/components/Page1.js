@@ -35,35 +35,14 @@ class Page1 extends React.Component {
     					<div class="bar w-55">55%</div>
   					</div>
   				</div>
-				<div>
-					<div class="row flex-spaces child-borders">
-  						<label class="paper-btn margin" for="modal-1">Web Optimization</label>
-					</div>
-						<input class="modal-state" id="modal-1" type="checkbox"/>
-					<div class="modal">
-  						<label class="modal-bg" for="modal-1"></label>
- 					 <div class="modal-body">
-   					 <label class="btn-close" for="modal-1">X</label>
-   					 
-    				<h4 class="modal-title">Web Optimization</h4>
-   					 <h5 class="modal-subtitle">Project</h5>
-   					 <p class="modal-text">Case study on Web perfomance of a website.</p>
-   					 <label for="modal-1">
-   					 <a href = "https://14richa.github.io/2019-03-23/casestudy1" target = "_blank"> Show Project </a></label>
-  					</div>
-
-				</div>
 
 				<div class = "grid-container">
 
 					<a  className = {`work1 paper-btn`}>HTML and CSS</a>
 					<a className = {`work2 paper-btn`} href="https://14richa.github.io/2019-03-23/casestudy1" target = "_blank">Web Optimization</a>
-					<a className = {`work3 paper-btn`} href="https://videos-react.herokuapp.com/" target = "_blank">React</a>
-				</div>	
+					<a className = {`work3 paper-btn`} href="https://videos-react.herokuapp.com/" target = "_blank">React</a>	
 				</div>
-				<div> 
-					<h4 className = "blog">I also write sometimes:  <a href = "https://14richa.github.io/" target = "_blank"><img src = "ink-pot.jpg" alt = "ink"/></a></h4> 
-				</div>
+				<div class= "grid-container footer">
 				<div className = {`button social`}>
 					<button>
   						<i class="twitter icon"></i>
@@ -82,16 +61,21 @@ class Page1 extends React.Component {
 						<i class = "github icon"></i>
 					</button>
 
-				</div>
 
-
-				<div className = {`footer`}> 
+					
 					<Link to = {`/Page2`}>
 					 <button className = "col background-secondary">
 					 <i class="share icon"></i>
 					 </button>
 					</Link>
+				   
+
 				</div>
+				</div>
+
+
+				
+
 			</div>
 		);
 	}

@@ -1,4 +1,3 @@
-import './Page1.css';
 import './Page2.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -24,7 +23,7 @@ class Page2 extends React.Component {
         <div class="col sm-8">
           <div class="form-group">
             <label for="paperInputs3">Message</label>
-              <textarea placeholder="write your message here"></textarea>
+              <textarea placeholder="write your message here  "></textarea>
            </div>
          </div>
         </div>

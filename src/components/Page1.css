@@ -1,23 +1,15 @@
 .footer {
-	
-	
 	font-size: 79px;
 	text-align: center;
 }
 
-/*.work1 {
-	margin-left: 99px;
-	font-weight: bold;
-	font-size: 19px;
-
-}*/
 
 body
 {
-	background-image: url("../wallpaper.jpg");
-	background-size:     cover;             
+	background-image: url("../wallpaper1024_768.jpg");
+	background-size:     auto;             
     background-repeat:   no-repeat;
-    background-position: center center; 
+    /*background-position: center center; */
  }
 
 

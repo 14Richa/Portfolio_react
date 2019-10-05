@@ -4,6 +4,7 @@ import Page1 from './Page1';
 import Page2 from './Page2';
 
 
+
 const App = () => {
 	return (
 		<div>
@@ -15,6 +16,7 @@ const App = () => {
 				
 					<Route path = "/" exact component = {Page1} />
 					<Route path = "/Page2" exact component = {Page2} />
+					
 				</div>
 					
 			</BrowserRouter>
@@ -29,3 +31,5 @@ const App = () => {
 };
 
 export default App;
+
+//<Route path = "/Page2" exact component = {Page2} />

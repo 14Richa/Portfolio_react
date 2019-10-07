@@ -135,7 +135,7 @@ class Page1 extends React.Component {
 				<div class= "grid-container footer">
 					<div className = {`button social`} >
 					
-							<a className = {`paper-btn twitter`} href = "https://twitter.com/anu08rag" target = "_blank"> 
+							<a className = {`paper-btn twitter`} href = "https://twitter.com/geekGirlRicha" target = "_blank"> 
   							<i class="twitter icon" > </i> 
   							</a>
 						
@@ -154,7 +154,7 @@ class Page1 extends React.Component {
 
 						
 					
-							<a className = {`paper-btn github`} href = "https://www.linkedin.com/in/richa-sharma-088723134/https://14richa.github.io/" target = "_blank">
+							<a className = {`paper-btn github`} href = "https://github.com/14Richa" target = "_blank">
 							<i class = "github icon"></i>
 							</a>
 
@@ -183,11 +183,11 @@ class Page1 extends React.Component {
     			Your email:
    				 <input type="text" name="_replyto"/>
   				 </label>
-   				<label>
+   				<label class = "message">
     				Your message:
-    			<textarea name="message"></textarea>
+    			<textarea  name="message"></textarea>
   				</label>
-  					<input type="submit" value="Send"/>
+  					<input class = "send" type="submit" value="Send"/>
    				</form>
    					 
     

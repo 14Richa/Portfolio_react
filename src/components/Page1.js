@@ -128,7 +128,7 @@ class Page1 extends React.Component {
   	
 
 				<div class = "grid-container work">
-					<a className = {`work1 paper-btn` } popover-top="Newspaper front-page using only flexbox and grids" >UI/UX </a>
+					<a className = {`work1 paper-btn` } popover-top="Newspaper front-page using only flexbox and grids" href = "https://14richa.github.io/quintype/" target = "_blank" >UI/UX </a>
 					<a className = {`work2 paper-btn`} popover-top="Case study on improving rendring using Chrome tools" href="https://14richa.github.io/2019-03-23/casestudy1" target = "_blank">Web Optimization</a>
 					<a className = {`work3 paper-btn`} popover-top="Youtube clone with a twist." href="https://videos-react.herokuapp.com/" target = "_blank">React</a>	
 				</div>

@@ -1,17 +1,29 @@
 .footer {
-	font-size: 79px;
-	text-align: center;
+	margin-left: 290px;
+}
+.twitter {
+	margin-right: 50px;
+}
+.github {
+	margin-left: 50px;
 }
 
+.info {
+	text-align: center;
+}
 
 body
 {
 	background-image: url("../wallpaper1024_768.jpg");
 	background-size:     auto;             
     background-repeat:   no-repeat;
+    text-decoration: none
     /*background-position: center center; */
  }
+.work {
+	margin-left: 110px;
 
+}
 
 /*.work2 {
 	margin-left: 155px;
@@ -55,6 +67,7 @@ h3 {
 
 .social {
 	text-align: center;
+
 }
 
 .blog {
@@ -65,7 +78,11 @@ h3 {
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	grid-gap: 40px;
+	grid-gap: 20px;
 	text-align: center;
+}
+
+.blog {
+	margin-left: 740px;
 }
 

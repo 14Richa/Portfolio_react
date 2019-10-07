@@ -23,6 +23,52 @@ class Page1 extends React.Component {
   //     speed:40} );
   // }
 
+// 		<form
+//   action="https://formspree.io/xogvjvqx"
+//   method="POST"
+// >
+//   <label>
+//     Your email:
+//     <input type="text" name="_replyto"/>
+//   </label>
+//   <label>
+//     Your message:
+//     <textarea name="message"></textarea>
+//   </label>
+//   </form>
+
+
+// <h3> 
+// 					<Typewriter
+//   						onInit={(typewriter) => {
+//     							typewriter.pauseFor(250)
+// 										  .typeString('A Front-end Developer who focuses')
+// 										  .pauseFor(300)
+// 										  //.deleteChars(10)
+// 										  .typeString('<strong></strong> on writing clean,elegant and efficient code. ')
+// 										  //.typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
+// 										  .pauseFor(1000)
+// 										  .start();
+//   								}}
+// 					/>
+// 				</h3>
+
+// <h2>
+// 					<Typewriter
+// 					  onInit={(typewriter) => {
+// 					    typewriter.typeString('Hello World!')
+// 					      .callFunction(() => {
+// 					        console.log('String typed out!');
+// 					      })
+// 					      .pauseFor(2500)
+// 					      .deleteAll()
+// 					      .callFunction(() => {
+// 					        console.log('All strings were deleted');
+// 					      })
+// 					      .start();
+// 					  }}
+// 					/>
+// 				</h2>
 
 
 	render() {
@@ -43,24 +89,13 @@ class Page1 extends React.Component {
 
 				</h1>
 
-
-					<h3> I like to code and build beautiful interfaces! </h3>
+				<h3> A Front-end Developer who focuses on writing clean,elegant and efficient code. </h3>
+					
 				</div>
 
-				<h3> 
-					<Typewriter
-  						onInit={(typewriter) => {
-    							typewriter.pauseFor(250)
-										  .typeString('A Front-end Developer who focuses')
-										  .pauseFor(300)
-										  //.deleteChars(10)
-										  .typeString('<strong></strong> on writing clean,elegant and efficient code. ')
-										  //.typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
-										  .pauseFor(1000)
-										  .start();
-  								}}
-					/>
-				</h3>
+				
+
+				
 
 				{/*<div className = "row">
 				HTML AND CSS
@@ -84,61 +119,57 @@ class Page1 extends React.Component {
 
 
 
-  				<form
-  action="https://formspree.io/xogvjvqx"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="text" name="_replyto"/>
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
 
 
-  <button type="submit">Send</button>
-</form>
+				<h4 class = "info"> I am proficient in ReactJS, Javascript and GastbyJS. I have worked in Front-end development and comfortable with different techonlogies and tools. I am always eager to learn new technologies and 
+				look forward to apply them in my work. I care about performance optimization, frictionless UI and readability in code.</h4>
+					<h4 class = "info"> I scroll github and codepen more than my Instagram &#128540;</h4> 
 
+  	
 
-
-				<div class = "grid-container">
-
-					<a className = {`work1 paper-btn`}>HTML and CSS</a>
-					<a className = {`work2 paper-btn`} href="https://14richa.github.io/2019-03-23/casestudy1" target = "_blank">Web Optimization</a>
-					<a className = {`work3 paper-btn`} href="https://videos-react.herokuapp.com/" target = "_blank">React</a>	
+				<div class = "grid-container work">
+					<a className = {`work1 paper-btn` } popover-top="Newspaper front-page using only flexbox and grids" >UI/UX </a>
+					<a className = {`work2 paper-btn`} popover-top="Case study on improving rendring using Chrome tools" href="https://14richa.github.io/2019-03-23/casestudy1" target = "_blank">Web Optimization</a>
+					<a className = {`work3 paper-btn`} popover-top="Youtube clone with a twist." href="https://videos-react.herokuapp.com/" target = "_blank">React</a>	
 				</div>
 				<div class= "grid-container footer">
-				<div className = {`button social`}>
-					<button>
-  						<i class="twitter icon"></i>
-					</button>
-						
-					<button>
+					<div className = {`button social`} >
 					
-						<a className = {`linkedin icon`} href = "https://www.linkedin.com/in/richa-sharma-088723134/">
+							<a className = {`paper-btn twitter`} href = "https://twitter.com/anu08rag" target = "_blank"> 
+  							<i class="twitter icon" > </i> 
+  							</a>
+						
+
+						
+					
+							
+							<a className = {`paper-btn`} href = "https://www.linkedin.com/in/richa-sharma-088723134/" target = "_blank">
+							<i class="linkedin icon"> </i> 
+							</a>
 
   						
-  						</a>
+  							
   						
-					</button>
 						
-					<button>
-						<i class = "github icon"></i>
-					</button>
 
-
+						
 					
-					<Link to = {`/Page2`}>
-					 <button className = "col background-secondary">
-					 <i class="share icon"></i>
-					 </button>
-					</Link>
+							<a className = {`paper-btn github`} href = "https://www.linkedin.com/in/richa-sharma-088723134/https://14richa.github.io/" target = "_blank">
+							<i class = "github icon"></i>
+							</a>
+						
 				   
 
+					</div>
 				</div>
+				<div>
+
+					<a  className = {`paper-btn btn-secondary blog`} href = "https://14richa.github.io/"target = "_blank">
+					<i class="pencil alternate icon"></i>
+					</a> 
 				</div>
+
+				
 
 
 				

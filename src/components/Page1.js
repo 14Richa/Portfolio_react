@@ -157,17 +157,42 @@ class Page1 extends React.Component {
 							<a className = {`paper-btn github`} href = "https://www.linkedin.com/in/richa-sharma-088723134/https://14richa.github.io/" target = "_blank">
 							<i class = "github icon"></i>
 							</a>
+
+							<a  className = {`paper-btn blog`} href = "https://14richa.github.io/"target = "_blank">
+							<i class="pencil alternate icon"></i>
+							</a> 
 						
 				   
 
 					</div>
 				</div>
-				<div>
+		
 
-					<a  className = {`paper-btn btn-secondary blog`} href = "https://14richa.github.io/"target = "_blank">
-					<i class="pencil alternate icon"></i>
-					</a> 
+				<div class="row flex-spaces child-borders">
+  					<label class="paper-btn margin contact" for="modal-2">Write to me!</label>
 				</div>
+				<input class="modal-state" id="modal-2" type="checkbox"/>
+				<div class="modal">
+  				<label class="modal-bg" for="modal-2"></label>
+  				<div class="modal-body">
+  				<form
+  						action="https://formspree.io/xogvjvqx"
+   						method="POST">
+								
+   				<label>
+    			Your email:
+   				 <input type="text" name="_replyto"/>
+  				 </label>
+   				<label>
+    				Your message:
+    			<textarea name="message"></textarea>
+  				</label>
+  					<input type="submit" value="Send"/>
+   				</form>
+   					 
+    
+  			</div>
+			</div>
 
 				
 

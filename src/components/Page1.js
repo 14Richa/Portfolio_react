@@ -127,26 +127,31 @@ class Page1 extends React.Component {
 
   	
 
-				<div class = "flex-container work">
+				<div class = "flex-container">
 				
-					<a className = {`work1 paper-btn` } popover-top="Newspaper front-page using only flexbox and grids" href = "https://14richa.github.io/quintype/" target = "_blank" >UI/UX </a>
-					<a className = {`work2 paper-btn`} popover-top="Case study on improving rendring using Chrome tools" href="https://14richa.github.io/2019-03-23/casestudy1" target = "_blank">Web Optimization</a>
-					<a className = {`work3 paper-btn`} popover-top="Youtube clone with a twist." href="https://videos-react.herokuapp.com/" target = "_blank">React</a>	
-				</div>
-				<div class = "grid-container">
-					<div className = {`button`} >
+					<a className = {`paper-btn` } popover-top="Newspaper front-page using only flexbox and grids" href = "https://14richa.github.io/quintype/" target = "_blank" >UI/UX </a>
+					<a className = {`paper-btn`} popover-top="Case study on improving rendring using Chrome tools" href="https://14richa.github.io/2019-03-23/casestudy1" target = "_blank">Web Optimization</a>
+					<a className = {`paper-btn`} popover-top="Youtube clone with a twist." href="https://videos-react.herokuapp.com/" target = "_blank">React</a>	
 					
-							<a className = {`paper-btn`} href = "https://twitter.com/geekGirlRicha" target = "_blank"> 
+
+					</div>
+					<div class =  "flex-container">
+						<div class = "item2">
+
+
+					<a className = {`paper-btn`} href = "https://twitter.com/geekGirlRicha" target = "_blank">
   							<i class="twitter icon" > </i> 
-  							</a>
+  					</a>
+  							
 						
 
 						
 					
 							
-							<a className = {`paper-btn`} href = "https://www.linkedin.com/in/richa-sharma-088723134/" target = "_blank">
+							<a className = {`paper-btn`}  href = "https://www.linkedin.com/in/richa-sharma-088723134/" target = "_blank">
 							<i class="linkedin icon"> </i> 
 							</a>
+							
 
   						
   							
@@ -154,23 +159,30 @@ class Page1 extends React.Component {
 						
 
 						
-					
-							<a className = {`paper-btn`} href = "https://github.com/14Richa" target = "_blank">
+							
+							<a className = {`paper-btn`}  href = "https://github.com/14Richa" target = "_blank">
 							<i class = "github icon"></i>
 							</a>
+							
+							
 
-							<a  className = {`paper-btn`} href = "https://14richa.github.io/"target = "_blank">
+							<a  className = {`paper-btn`}  href = "https://14richa.github.io/"target = "_blank">
 							<i class="pencil alternate icon"></i>
 							</a> 
-						
+						</div>
+
+							
+					
+					</div>	
 				   
 
-					</div>
-				</div>
+					
+				
+
 		
 
-				<div>
-  					<label class="paper-btn margin contact" for="modal-2">Write to me!</label>
+				<div class = "grid-container message-box">
+  					<label class="paper-btn margin contact item1" for="modal-2">Write to me!</label>
 				</div>
 				<input class="modal-state" id="modal-2" type="checkbox"/>
 				<div class="modal">
@@ -194,13 +206,14 @@ class Page1 extends React.Component {
     
   			</div>
 			</div>
+			</div>
 
 
 
 
 				
 
-			</div>
+			
 		);
 	}
 }

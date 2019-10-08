@@ -69,12 +69,20 @@ h3 {
 
 
 
+
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	grid-gap: 20px;
-	text-align: center;
+	grid-column-gap: 30px;
+
 	
+	justify-content: center;
+
+}
+
+.message-box { 
+display: grid;
+justify-content: right; 
 }
 
 /*.blog {
@@ -93,4 +101,10 @@ h3 {
 	flex-wrap: wrap;
 	justify-content: center;
 
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: none;
+  }
 }

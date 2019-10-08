@@ -2,7 +2,7 @@ import './Page1.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import TypeIt from 'typeit';
-import Type from './temp.js'
+//import Type from './temp.js'
 import Typewriter from 'typewriter-effect';
 
 
@@ -127,15 +127,16 @@ class Page1 extends React.Component {
 
   	
 
-				<div class = "grid-container work">
+				<div class = "flex-container work">
+				
 					<a className = {`work1 paper-btn` } popover-top="Newspaper front-page using only flexbox and grids" href = "https://14richa.github.io/quintype/" target = "_blank" >UI/UX </a>
 					<a className = {`work2 paper-btn`} popover-top="Case study on improving rendring using Chrome tools" href="https://14richa.github.io/2019-03-23/casestudy1" target = "_blank">Web Optimization</a>
 					<a className = {`work3 paper-btn`} popover-top="Youtube clone with a twist." href="https://videos-react.herokuapp.com/" target = "_blank">React</a>	
 				</div>
-				<div class= "grid-container footer">
-					<div className = {`button social`} >
+				<div class = "grid-container">
+					<div className = {`button`} >
 					
-							<a className = {`paper-btn twitter`} href = "https://twitter.com/geekGirlRicha" target = "_blank"> 
+							<a className = {`paper-btn`} href = "https://twitter.com/geekGirlRicha" target = "_blank"> 
   							<i class="twitter icon" > </i> 
   							</a>
 						
@@ -154,11 +155,11 @@ class Page1 extends React.Component {
 
 						
 					
-							<a className = {`paper-btn github`} href = "https://github.com/14Richa" target = "_blank">
+							<a className = {`paper-btn`} href = "https://github.com/14Richa" target = "_blank">
 							<i class = "github icon"></i>
 							</a>
 
-							<a  className = {`paper-btn blog`} href = "https://14richa.github.io/"target = "_blank">
+							<a  className = {`paper-btn`} href = "https://14richa.github.io/"target = "_blank">
 							<i class="pencil alternate icon"></i>
 							</a> 
 						
@@ -168,7 +169,7 @@ class Page1 extends React.Component {
 				</div>
 		
 
-				<div class="row flex-spaces child-borders">
+				<div>
   					<label class="paper-btn margin contact" for="modal-2">Write to me!</label>
 				</div>
 				<input class="modal-state" id="modal-2" type="checkbox"/>
@@ -194,7 +195,7 @@ class Page1 extends React.Component {
   			</div>
 			</div>
 
-				
+
 
 
 				

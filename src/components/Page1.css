@@ -1,4 +1,4 @@
-.footer {
+/*.footer {
 	margin-left: 290px;
 }
 .twitter {
@@ -6,7 +6,7 @@
 }
 .github {
 	margin-left: 50px;
-}
+}*/
 
 .info {
 	text-align: center;
@@ -20,7 +20,7 @@ body
     text-decoration: none
     /*background-position: center center; */
  }
-.work {
+/*.work {
 	margin-left: 110px;
 
 }
@@ -65,24 +65,19 @@ h3 {
 	
 }
 
-.social {
-	text-align: center;
 
-}
 
-.blog {
-	text-align: center;
-	
-}
+
 
 .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-gap: 20px;
 	text-align: center;
+	
 }
 
-.blog {
+/*.blog {
 	margin-left: 50px;
 }
 
@@ -92,4 +87,10 @@ h3 {
 
 .send {
 	margin-top: 35px
+}*/
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
 }
